@@ -1,0 +1,31 @@
+{
+  "name": "cypress-gherkin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cypress.config.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wirahadi99/cypress-gherkin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wirahadi99/cypress-gherkin/issues"
+  },
+  "homepage": "https://github.com/wirahadi99/cypress-gherkin#readme",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^19.2.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^13.6.1",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3"
+  },
+  "cypress-cucumber-peprocessor": {
+    "stepDefinitions": "cypress/support/step_definitions/**/*.js"
+  },
+  "dependencies": {}
+}
